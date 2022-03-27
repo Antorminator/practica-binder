@@ -1,9 +1,3 @@
-# Práctica Binder
-
-El objetivo de este repositorio, creado con motivos académicos, es desarrollar un modelo de *Computer Vision* que pueda clasificar imágenes de frutas; en concreto, está preparado para clasificar imágenes de manzanas, peras y mandarinas.
-
-Para la creación y manipulación del dataset y el modelo de ML se ha utilizado **fastai** y **PyTorch**.
-
 ## Preparación del dataset
 Para la generación de nuestro dataset, utilizaremos el método de **fastai** *search_images_ddg*. Primero, importamos las dependencias necesarias:
 
@@ -6555,3 +6549,11 @@ Por último, realizamos la exportación de nuestro modelo usando el método *exp
 ```python
 learn.export()
 ```
+
+## Acceso desde Binder
+
+El modelo entrenado (que se desarrolla en el cuaderno *practica_binder.ipynb* del presente repositorio) es accesible desde Binder utilizando el siguiente enlace: 
+
+https://mybinder.org/v2/gh/Antorminator/practica-binder/HEAD?labpath=practica_binder_2.ipynb
+
+El enlace se corresponde con la ejecución del cuaderno *practica_binder_2.ipynb*, donde está el código de la UI para usar el modelo.
