@@ -1,3 +1,11 @@
+# Práctica Binder
+
+El objetivo de este repositorio, creado con motivos académicos, es desarrollar un modelo de *Computer Vision* que pueda clasificar imágenes de frutas; en concreto, está preparado para clasificar imágenes de manzanas, peras y mandarinas.
+
+Para la creación y manipulación del dataset y el modelo de ML se ha utilizado **fastai** y **PyTorch**.
+
+El modelo entrenado es operable desde **Binder** a través del enlace descrito al final.
+ 
 ## Preparación del dataset
 Para la generación de nuestro dataset, utilizaremos el método de **fastai** *search_images_ddg*. Primero, importamos las dependencias necesarias:
 
