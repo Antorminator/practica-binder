@@ -1,4 +1,4 @@
-# Práctica Binder
+# Práctica de transfer learning con fastai, PyTorch y Binder
 
 El objetivo de este repositorio, creado con motivos académicos, es desarrollar un modelo de *Computer Vision* que pueda clasificar imágenes de frutas; en concreto, está preparado para clasificar imágenes de manzanas, peras y mandarinas.
 
